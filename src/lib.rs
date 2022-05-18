@@ -1,3 +1,5 @@
+#![allow(non_snake_case)]
+
 use wasm_bindgen::prelude::*;
 use web_sys::console::log_1 as log;
 use base64::{ encode, decode };
